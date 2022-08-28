@@ -70,9 +70,8 @@ h1{
 }
 
 .logo{
-    height: 228px;
-    width: 250px;
-    margin-left: 250px;
+    height: 100px;
+    width: 100px;
 }
 
 .banner{
@@ -110,4 +109,36 @@ h1{
     position: fixed;
     top: 592px;
     right: 30px;
+}
+
+.color-nav{
+    background-color: rgb(216, 124, 199);
+}
+
+.btn-primary{
+background-color: rgb(209, 34, 127);
+background: rgb(209, 34, 127);
+border-color: rgb(209, 34, 127);
+}
+
+
+.btn-primary:hover{
+background-color: rgb(154, 22, 93);
+background:  rgb(154, 22, 93);
+border-color:  rgb(154, 22, 93);
+}
+
+.accordion-button:not(.collapsed){
+background-color:rgba(209, 34, 127, 0.393) ;
+color:rgb(154, 22, 93) ;
+}
+
+.accordion-button:focus{
+box-shadow: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
 }
