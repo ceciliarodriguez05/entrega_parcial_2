@@ -38,6 +38,7 @@ h1 {
     margin-bottom: 600px;
 }
 
+
 .paginas {
     background-color: pink;
     width: 150px;
@@ -64,7 +65,13 @@ h1 {
 .footer {
     background-color: pink;
     height: 50px;
-    padding-top: 10px;
+    padding-top: 10px; 
+}
+
+
+.footer a{
+    color: rgba(0, 0, 0, 0.55);
+    text-decoration: none;
 }
 
 .footer ul {
@@ -74,6 +81,10 @@ h1 {
     margin: 0 auto;
     justify-content: space-around;
     font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.footer a:hover{
+    color: rgb(154, 22, 93);
 }
 
 .whatsapp-index {
@@ -96,13 +107,38 @@ h1 {
     border-color: pink(209, 34, 127);
 }
 
+.navbar-nav{
+    --bs-nav-link-hover-color: rgb(154, 22, 93);
+}
+
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 .form-control {
     font-weight: 300;
+    border: 1px solid rgb(154, 22, 93);
+    border-radius: 0;
 }
+
+.btn-primary {
+    --bs-btn-color: rgb(154, 22, 93);
+    --bs-btn-bg: pink;
+    --bs-btn-border-color: rgb(154, 22, 93);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(154, 22, 93);
+    --bs-btn-hover-border-color: rgb(154, 22, 93);
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(154, 22, 93);
+    --bs-btn-active-border-color: rgb(154, 22, 93);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: rgb(154, 22, 93);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: rgb(154, 22, 93);
+    --bs-gradient: none;
+}
+
 
 .row{
     justify-content: space-around;
@@ -122,6 +158,10 @@ body {
     border-top-right-radius: unset;
 }
 
+.card-text {
+    font-weight: 300;
+}
+
 .mas-info {
     background-color: pink;
 }
@@ -132,10 +172,6 @@ body {
     background: rgb(154, 22, 93);
     border-color: rgb(154, 22, 93);
     color: white;
-}
-
-.card-text {
-    font-weight: 300;
 }
 
 .btn-primary:hover {
@@ -151,7 +187,6 @@ body {
     margin-right: 10%;
     margin-left: 10%;
 }
-
 
 .consulta {
     width: 100%;
