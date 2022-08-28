@@ -69,25 +69,20 @@ h1{
 }
 
 .footer{
-    background-color: antiquewhite;
-    height: 30px;
-    padding: 25px;
-    text-align: center;
+    background-color: pink;
+    height: 50px;
+    padding-top: 10px;
 }
 
-.redes{
+.footer ul{
+    display: flex;
     list-style: none;
-    background-color: coral;
-    width: 150px;
-    height: 70px;
-    text-align: center;
-    display: inline;
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 50px;
+    width: 450px;
+    margin: 0 auto;
+    justify-content: space-around;
     font-family: 'Be Vietnam Pro', sans-serif;
-}
 
+}
 
 .whatsapp-index{
     display: inline-block;
