@@ -2,50 +2,43 @@
 
 /* font-family: 'Be Vietnam Pro', sans-serif; */
 
-h1{
+h1 {
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-*{
+* {
     margin: 0px;
 }
 
-.inicio{
-    border: pink 8px dotted;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 600px;
-}
-
-.contacto{
+.contacto {
     border: pink 8px dotted;
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.productos{
+.productos {
     border: pink 8px dotted;
     padding: 10px;
     text-align: center;
     margin-bottom: 600px;
 }
 
-.proyectos{
+.proyectos {
     border: pink 8px dotted;
     padding: 10px;
     text-align: center;
     margin-bottom: 600px;
 }
 
-.nosotros{
+.nosotros {
     border: pink 8px dotted;
     padding: 10px;
     text-align: center;
     margin-bottom: 600px;
 }
 
-.paginas{
+.paginas {
     background-color: pink;
     width: 150px;
     height: 70px;
@@ -57,34 +50,33 @@ h1{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-.logo{
+.logo {
     height: 100px;
     width: 100px;
 }
 
-.banner{
+.banner {
     height: 228px;
     width: 528px;
     margin-left: 500px;
 }
 
-.footer{
+.footer {
     background-color: pink;
     height: 50px;
     padding-top: 10px;
 }
 
-.footer ul{
+.footer ul {
     display: flex;
     list-style: none;
     width: 450px;
     margin: 0 auto;
     justify-content: space-around;
     font-family: 'Be Vietnam Pro', sans-serif;
-
 }
 
-.whatsapp-index{
+.whatsapp-index {
     display: inline-block;
     width: 59px;
     height: 53px;
@@ -94,32 +86,65 @@ h1{
     right: 30px;
 }
 
-.color-nav{
+.color-nav {
     background-color: pink;
 }
 
-.btn-primary{
-background-color:pink (209, 34, 127);
-background: pink(209, 34, 127);
-border-color: pink(209, 34, 127);
+.btn-primary {
+    background-color: pink (209, 34, 127);
+    background: pink(209, 34, 127);
+    border-color: pink(209, 34, 127);
 }
 
-body{
-    font-family:'Be Vietnam Pro', sans-serif;
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-.form-control{
-    font-weight:lighter;
+.form-control {
+    font-weight: 300;
 }
 
-
-.btn-primary:hover{
-background-color: rgb(154, 22, 93);
-background:  rgb(154, 22, 93);
-border-color:  rgb(154, 22, 93);
+.row{
+    justify-content: space-around;
+    margin-bottom: 60px;
+    margin-top: 40px;
 }
 
-.formulario{
+.card {
+    margin-left: 10px;
+    width: 15rem;
+    font-size: small;
+    --bs-card-border-color: none;
+}
+
+.card-img-top{
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+}
+
+.mas-info {
+    background-color: pink;
+}
+
+.mas-info:hover {
+    background-color: pink;
+    background-color: rgb(154, 22, 93);
+    background: rgb(154, 22, 93);
+    border-color: rgb(154, 22, 93);
+    color: white;
+}
+
+.card-text {
+    font-weight: 300;
+}
+
+.btn-primary:hover {
+    background-color: rgb(154, 22, 93);
+    background: rgb(154, 22, 93);
+    border-color: rgb(154, 22, 93);
+}
+
+.formulario {
     margin-top: 30px;
     margin-bottom: 300px;
     width: 80%;
@@ -127,26 +152,23 @@ border-color:  rgb(154, 22, 93);
     margin-left: 10%;
 }
 
-.row{
-    justify-content: space-around
-}
 
-.consulta{
+.consulta {
     width: 100%;
 }
 
-.input-consulta{
+.input-consulta {
     height: 150px;
 }
 
 
-.accordion-button:not(.collapsed){
-background-color:rgba(209, 34, 127, 0.393) ;
-color:rgb(154, 22, 93) ;
+.accordion-button:not(.collapsed) {
+    background-color: rgba(209, 34, 127, 0.393);
+    color: rgb(154, 22, 93);
 }
 
-.accordion-button:focus{
-box-shadow: none;
+.accordion-button:focus {
+    box-shadow: none;
 }
 
 
@@ -156,7 +178,7 @@ box-shadow: none;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: rgb(154, 22, 93);
     --bs-btn-hover-border-color: rgb(154, 22, 93);
-    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: rgb(154, 22, 93);
     --bs-btn-active-border-color: rgb(154, 22, 93);
@@ -168,8 +190,8 @@ box-shadow: none;
 }
 
 
-@media (max-width: 991px){
-   .busqueda{
-    display: none;
-   }
+@media (max-width: 991px) {
+    .busqueda {
+        display: none;
     }
+}
