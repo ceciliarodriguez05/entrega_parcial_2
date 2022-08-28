@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,300;0,500;1,100&display=swap');
+
+/* font-family: 'Be Vietnam Pro', sans-serif; */
+
+h1{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+*{
+    margin: 0px;
+}
+
+.inicio{
+    border: pink 8px dotted;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 600px;
+}
+
+.contacto{
+    border: pink 8px dotted;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.productos{
+    border: pink 8px dotted;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 600px;
+}
+
+.proyectos{
+    border: pink 8px dotted;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 600px;
+}
+
+.nosotros{
+    border: pink 8px dotted;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 600px;
+}
+
+.barranavegacion{
+    list-style: none;
+    background-color: antiquewhite;
+    height: 30px;
+    padding: 25px;
+    text-align:right;
+}
+
+.paginas{
+    background-color: pink;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    display: inline;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.busqueda{
+    margin-left: 1200px;
+}
+
+.logo{
+    height: 228px;
+    width: 250px;
+    margin-left: 250px;
+}
+
+.banner{
+    height: 228px;
+    width: 528px;
+    margin-left: 500px;
+}
+
+.footer{
+    background-color: antiquewhite;
+    height: 30px;
+    padding: 25px;
+    text-align: center;
+}
+
+.redes{
+    list-style: none;
+    background-color: coral;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    display: inline;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+.whatsapp-index{
+    display: inline-block;
+    width: 59px;
+    height: 53px;
+    border-radius: 10px;
+    position: fixed;
+    top: 592px;
+    right: 30px;
+}
