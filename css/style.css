@@ -104,12 +104,41 @@ background: pink(209, 34, 127);
 border-color: pink(209, 34, 127);
 }
 
+body{
+    font-family:'Be Vietnam Pro', sans-serif;
+}
+
+.form-control{
+    font-weight:lighter;
+}
+
 
 .btn-primary:hover{
 background-color: rgb(154, 22, 93);
 background:  rgb(154, 22, 93);
 border-color:  rgb(154, 22, 93);
 }
+
+.formulario{
+    margin-top: 30px;
+    margin-bottom: 300px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.row{
+    justify-content: space-around
+}
+
+.consulta{
+    width: 100%;
+}
+
+.input-consulta{
+    height: 150px;
+}
+
 
 .accordion-button:not(.collapsed){
 background-color:rgba(209, 34, 127, 0.393) ;
